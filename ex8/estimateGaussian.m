@@ -1,4 +1,4 @@
-function [mu, sigma2] = estimateGaussian(X)
+function [mu sigma2] = estimateGaussian(X)
 %ESTIMATEGAUSSIAN This function estimates the parameters of a 
 %Gaussian distribution using the data in X
 %   [mu sigma2] = estimateGaussian(X), 
